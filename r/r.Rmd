@@ -1,0 +1,24 @@
+---
+title: "r"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Print all integers between 1 and 10 (including 1 and 10) to screen
+
+```{r arithmetic}
+i <- 1
+
+while (i <= 10) 
+{
+  print(i)
+  i = i+1
+}
+```
